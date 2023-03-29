@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="247.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.controllers.MenuController">
+    <Button id="onePlayerBtn" mnemonicParsing="false" onAction="#onePlayer" text="1 vs AI">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Button>
+    <Button id="twoPlayerBtn" mnemonicParsing="false" onAction="#twoPlayer" text="1 vs 1">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Button>
+    <Button id="scoreboardBtn" mnemonicParsing="false" onAction="#scoreboard" text="Scoreboard">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Button>
+</VBox>
